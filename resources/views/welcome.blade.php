@@ -1,95 +1,262 @@
-<!doctype html>
-<html lang="{{ app()->getLocale() }}">
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+@extends('layouts.app')
 
-        <title>Laravel</title>
+@section('title', 'エージェントゼロ')
 
-        <!-- Fonts -->
-        <link href="https://fonts.googleapis.com/css?family=Raleway:100,600" rel="stylesheet" type="text/css">
+@section('content')
 
-        <!-- Styles -->
-        <style>
-            html, body {
-                background-color: #fff;
-                color: #636b6f;
-                font-family: 'Raleway', sans-serif;
-                font-weight: 100;
-                height: 100vh;
-                margin: 0;
-            }
+@include('commons.nav-menu')
 
-            .full-height {
-                height: 100vh;
-            }
+<section class="contents container" style="margin-top: 0px;">
 
-            .flex-center {
-                align-items: center;
-                display: flex;
-                justify-content: center;
-            }
+    <div class="title text-white text-center black py-1 my-4">
+        C O N T E N T S
+    </div>
 
-            .position-ref {
-                position: relative;
-            }
+    <!-- Card deck -->
+    <div class="card-deck">
 
-            .top-right {
-                position: absolute;
-                right: 10px;
-                top: 18px;
-            }
+        <!-- Card -->
+        <div class="card rounded-0 border border-dark mb-5">
 
-            .content {
-                text-align: center;
-            }
-
-            .title {
-                font-size: 84px;
-            }
-
-            .links > a {
-                color: #636b6f;
-                padding: 0 25px;
-                font-size: 12px;
-                font-weight: 600;
-                letter-spacing: .1rem;
-                text-decoration: none;
-                text-transform: uppercase;
-            }
-
-            .m-b-md {
-                margin-bottom: 30px;
-            }
-        </style>
-    </head>
-    <body>
-        <div class="flex-center position-ref full-height">
-            @if (Route::has('login'))
-                <div class="top-right links">
-                    @auth
-                        <a href="{{ url('/home') }}">Home</a>
-                    @else
-                        <a href="{{ route('login') }}">Login</a>
-                        <a href="{{ route('register') }}">Register</a>
-                    @endauth
-                </div>
-            @endif
-
-            <div class="content">
-                <div class="title m-b-md">
-                    Laravel
-                </div>
-
-                <div class="links">
-                    <a href="https://laravel.com/docs">Documentation</a>
-                    <a href="https://laracasts.com">Laracasts</a>
-                    <a href="https://laravel-news.com">News</a>
-                    <a href="https://forge.laravel.com">Forge</a>
-                    <a href="https://github.com/laravel/laravel">GitHub</a>
-                </div>
+            <!--Card image-->
+            <div class="view overlay">
+                <img class="card-img-top rounded-0" src="{{ asset('storage/eventseisaku.jpg') }}" alt="Card image cap">
+                <a href="#!">
+                    <div class="mask rgba-white-slight"></div>
+                </a>
             </div>
+
+            <!--Card header-->
+            <div class="card-header text-white text-center black p-1">
+                <!--Title-->
+                <p class="card-title contents-spacing mb-0">
+                    イベント企画制作
+                </p>
+            </div>
+
+            <!--Card content-->
+            <div class="card-body">
+
+                <!--Text-->
+                <p class="mb-0 text-justify small" style="letter-spacing:0.15em;">
+                    イベントの企画・アイデア出しから制作当日の運営、スタッフ派遣までイベントをトータルで総合的にコーディネートします。
+                </p>
+                <!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
+                {{-- <button type="button" class="btn btn-light-blue btn-md">Read more</button> --}}
+
+            </div>
+
         </div>
-    </body>
-</html>
+        <!-- Card -->
+
+        <!-- Card -->
+        <div class="card rounded-0 border border-dark mb-5 mx-0 mx-sm-2">
+
+            <!--Card image-->
+            <div class="view overlay">
+                <img class="card-img-top rounded-0" src="{{ asset('storage/casting.jpg') }}" alt="Card image cap">
+                <a href="#!">
+                    <div class="mask rgba-white-slight"></div>
+                </a>
+            </div>
+
+            <!--Card header-->
+            <div class="card-header text-white text-center black p-1">
+                <!--Title-->
+                <p class="card-title contents-spacing mb-0">
+                    キャスティング
+                </p>
+            </div>
+
+            <!--Card content-->
+            <div class="card-body">
+
+                <!--Text-->
+                <p class="mb-0 text-justify small" style="letter-spacing:0.15em;">
+                    タレント・アーティスト・芸人などジャンルを問わず対応します。ご予算に合わせて柔軟にご提案しますので、お気軽にお声掛けください。
+                </p>
+                <!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
+                {{-- <button type="button" class="btn btn-light-blue btn-md">Read more</button> --}}
+
+            </div>
+
+        </div>
+        <!-- Card -->
+
+        <!-- Card -->
+        <div class="card rounded-0 border border-dark mb-5">
+
+            <!--Card image-->
+            <div class="view overlay">
+                <img class="card-img-top rounded-0" src="{{ asset('storage/kaijousetsuei.jpg') }}" alt="Card image cap">
+                <a href="#!">
+                    <div class="mask rgba-white-slight"></div>
+                </a>
+            </div>
+
+            <!--Card header-->
+            <div class="card-header text-white text-center black p-1">
+                <!--Title-->
+                <p class="card-title contents-spacing mb-0">
+                    会場設営・空間装飾
+                </p>
+            </div>
+
+            <!--Card content-->
+            <div class="card-body">
+
+                <!--Text-->
+                <p class="mb-0 text-justify small" style="letter-spacing:0.15em;">
+                    ここに説明が入ります。ここに説明が入ります。
+                </p>
+                <!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
+                {{-- <button type="button" class="btn btn-light-blue btn-md">Read more</button> --}}
+
+            </div>
+
+        </div>
+        <!-- Card -->
+
+    </div>
+    <!-- Card deck -->
+
+
+    <!-- Card deck -->
+    <div class="card-deck">
+
+        <!-- Card -->
+        <div class="card rounded-0 border border-dark mb-5">
+
+            <!--Card image-->
+            <div class="view overlay">
+                <img class="card-img-top rounded-0" src="{{ asset('storage/glamorous.png') }}" alt="Card image cap">
+                <a href="#!">
+                    <div class="mask rgba-white-slight"></div>
+                </a>
+            </div>
+
+            <!--Card header-->
+            <div class="card-header text-white text-center black p-1">
+                <!--Title-->
+                <p class="card-title contents-spacing mb-0">
+                    Glamorous Outdoors
+                </p>
+            </div>
+
+            <!--Card content-->
+            <div class="card-body">
+
+                <!--Text-->
+                <p class="mb-0 text-justify small" style="letter-spacing:0.15em;">
+                    アウトドアで魅力的な空間を創造します。什器のレンタルから空間のプロデュース、本格BQQなどのコンテンツも提供します。
+                </p>
+                <!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
+                {{-- <button type="button" class="btn btn-light-blue btn-md">Read more</button> --}}
+
+            </div>
+
+        </div>
+        <!-- Card -->
+
+        <!-- Card -->
+        <div class="card rounded-0 border border-dark mb-5 mx-0 mx-sm-2">
+
+            <!--Card image-->
+            <div class="view overlay">
+                <img class="card-img-top rounded-0" src="{{ asset('storage/teafume.png') }}" alt="Card image cap">
+                <a href="#!">
+                    <div class="mask rgba-white-slight"></div>
+                </a>
+            </div>
+
+            <!--Card header-->
+            <div class="card-header text-white text-center black p-1">
+                <!--Title-->
+                <p class="card-title contents-spacing mb-0">
+                    茶道ユニット 茶香
+                </p>
+            </div>
+
+            <!--Card content-->
+            <div class="card-body">
+
+                <!--Text-->
+                <p class="mb-0 text-justify small" style="letter-spacing:0.15em;">
+                    新しい茶の世界を切り拓く2人組茶道ユニット。移動式茶室と巨大なトランクをトレードマークに今日も日本全国を巡ります。
+                </p>
+                <!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
+                {{-- <button type="button" class="btn btn-light-blue btn-md">Read more</button> --}}
+
+            </div>
+
+        </div>
+        <!-- Card -->
+
+        <!-- Card -->
+        <div class="card rounded-0 border border-dark mb-5">
+
+            <!--Card image-->
+            <div class="view overlay">
+                <img class="card-img-top rounded-0" src="{{ asset('storage/3x3イメージ.jpg') }}" alt="Card image cap">
+                <a href="#!">
+                    <div class="mask rgba-white-slight"></div>
+                </a>
+            </div>
+
+            <!--Card header-->
+            <div class="card-header text-white text-center black p-1">
+                <!--Title-->
+                <p class="card-title contents-spacing mb-0">
+                    Hooper's Park
+                </p>
+            </div>
+
+            <!--Card content-->
+            <div class="card-body">
+
+                <!--Text-->
+                <p class="mb-0 text-justify small" style="letter-spacing:0.15em;">
+                    「広島の新しいバスケ文化を想像する」をテーマに、ストリート要素を盛り込んだ非常にエンタメ性が高いイベントです。
+                </p>
+                <!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
+                {{-- <button type="button" class="btn btn-light-blue btn-md">Read more</button> --}}
+
+            </div>
+
+        </div>
+        <!-- Card -->
+
+    </div>
+    <!-- Card deck -->
+
+</section>
+
+@endsection
+
+@section('script')
+<script>
+      // 568px以下のときの処理
+      $(function() {
+          var $win = $(window),
+              $main = $('.contents'),
+              $nav = $('.nav-menu'),
+              navHeight = $nav.outerHeight(),
+              navPos = $nav.offset().top,
+              fixedClass = 'is-fixed';
+              w = $(window).width();
+              x = 568;
+
+          $win.on('load scroll', function() {
+            var value = $(this).scrollTop();
+            if ( value > navPos && w <= x) {
+              $nav.addClass(fixedClass);
+              $main.css('margin-top', navHeight + 25);
+            } else {
+              $nav.removeClass(fixedClass);
+              $main.css('margin-top', '0');
+            }
+          });
+        });
+
+</script>
+@endsection

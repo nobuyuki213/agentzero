@@ -70,7 +70,7 @@
 
                 <!-- Card overlay -->
                 <div class="view overlay rgba-white-strong h-100">
-                    <a href="#!">
+                    <a href="{{ route('contact') }}">
                         <div class="mask rgba-black-slight"></div>
                     </a>
 

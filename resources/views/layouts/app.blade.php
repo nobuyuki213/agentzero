@@ -16,6 +16,8 @@
     <link href="{{ asset('css/mdb.css') }}" rel="stylesheet">
     <!-- Your custom styles (optional) -->
     <link href="{{ asset('css/style.css') }}" rel="stylesheet">
+    <!-- Add CSS -->
+    @yield('stylesheet')
 
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Open+Sans|Raleway:100,600|Noto+Sans+JP" rel="stylesheet" type="text/css">

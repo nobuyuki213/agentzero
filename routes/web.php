@@ -14,3 +14,8 @@
 Route::get('/', function () {
     return view('welcome');
 })->name('top');
+
+// お問い合わせフォーム
+Route::get('contact', 'ContactusController@index')->name('contact');
+// お問い合わせ確認画面
+Route::post('contact/confirm', 'ContactusController@confirm')->name('contact.confirm');

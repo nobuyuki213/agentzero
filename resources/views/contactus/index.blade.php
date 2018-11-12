@@ -23,9 +23,9 @@
 			<!--Card content-->
 			<div class="card-body px-lg-5 pt-0">
 
-			    <!-- Form -->
-			    {!! Form::open(['route' => 'contact.confirm',
-			    				'style' => 'color: #1c2a48;']) !!}
+				<!-- Form -->
+				{!! Form::open(['route' => 'contact.confirm',
+								'style' => 'color: #1c2a48;']) !!}
 
 					<!-- Name -->
 					<div class="md-form form-group form-group mt-5">
@@ -71,36 +71,36 @@
 						</small>
 					</div>
 
-			        <!-- Subject -->
-			        {!! Html::decode(Form::label('category', 'お問い合わせ項目<span class="badge badge-danger ml-2">必須</span>',
-			        	['class' => 'form-control-label float-left'])) !!}
+					<!-- Subject -->
+					{!! Html::decode(Form::label('category', 'お問い合わせ項目<span class="badge badge-danger ml-2">必須</span>',
+						['class' => 'form-control-label float-left'])) !!}
 
-			        {!! Form::select('category',
-			        	['' => '選択してください']+array_pluck($categories, 'type', 'value'), old('category'),
-			        	['required', 'class' => 'browser-default custom-select']) !!}
+					{!! Form::select('category',
+						['' => '選択してください']+array_pluck($categories, 'type', 'value'), old('category'),
+						['required', 'class' => 'browser-default custom-select']) !!}
 
-			        <!--Message-->
-			        <div class="md-form form-group">
-			        	<i class="far fa-edit prefix"></i>
-			            <textarea type="text" id="materialContactFormMessage" class="form-control md-textarea" rows="3" required></textarea>
-			            <label for="materialContactFormMessage">
-			            	お問い合わせの内容<span class="badge badge-danger ml-2">必須</span>
-			            </label>
-			        </div>
+					<!--Message-->
+					<div class="md-form form-group">
+						<i class="far fa-edit prefix"></i>
+						<textarea type="text" id="materialContactFormMessage" class="form-control md-textarea" rows="3" required></textarea>
+						<label for="materialContactFormMessage">
+							お問い合わせの内容<span class="badge badge-danger ml-2">必須</span>
+						</label>
+					</div>
 
-			        <!-- Copy -->
-			        {{-- <div class="form-check">
-			            <input type="checkbox" class="form-check-input" id="materialContactFormCopy">
-			            <label class="form-check-label" for="materialContactFormCopy">Send me a copy of this message</label>
-			        </div> --}}
+					<!-- Copy -->
+					{{-- <div class="form-check">
+						<input type="checkbox" class="form-check-input" id="materialContactFormCopy">
+						<label class="form-check-label" for="materialContactFormCopy">Send me a copy of this message</label>
+					</div> --}}
 
-			        <!-- Send button -->
-			        <button class="btn btn-outline-info btn-rounded btn-block btn-lg z-depth-0 my-4 waves-effect" type="submit">
-				        入力内容の確認画面へ
-				    </button>
+					<!-- Send button -->
+					<button class="btn btn-outline-info btn-rounded btn-block btn-lg z-depth-0 my-4 waves-effect" type="submit">
+						入力内容の確認画面へ
+					</button>
 
-			    {!! Form::close() !!}
-			    <!-- Form -->
+				{!! Form::close() !!}
+				<!-- Form -->
 
 			</div>
 

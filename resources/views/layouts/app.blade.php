@@ -20,7 +20,7 @@
     @yield('stylesheet')
 
     <!-- Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Raleway:100,600|Noto+Sans+JP" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400|Raleway:100,600|Noto+Sans+JP" rel="stylesheet" type="text/css">
 </head>
 
 <body>

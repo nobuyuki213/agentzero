@@ -19,3 +19,5 @@ Route::get('/', function () {
 Route::get('contact', 'ContactusController@index')->name('contact');
 // お問い合わせ確認画面
 Route::post('contact/confirm', 'ContactusController@confirm')->name('contact.confirm');
+// お問い合わせメール送信完了
+Route::post('contact/complete', 'ContactusController@complete')->name('contact.complete');

@@ -54,31 +54,36 @@ class ContactusController extends Controller
 			return redirect()->action('ContactusController@index')->withInput($input);
 		};
 
-		// お問い合わせした方にメール送信
-		Mail::send(new ContactusNotification([
-			'to' => $request->email,
-			'to_name' => $request->name,
-			'from' => env('MAIL_FROM_ADDRESS'),
-			'from_name' => env('MAIL_FROM_NAME'),
-			'subject' => sprintf('%s 様 お問い合わせを受付いたしました。', $request->name),
-			'company' => $request->company,
-			'email' => $request->email,
-			'category' => $request->category,
-			'message' => $request->message,
-		], 'to')); // 送信用のviewを使用するため、第2引数に'to'を指定
+		try {
+			// お問い合わせした方にメール送信
+			Mail::send(new ContactusNotification([
+				'to' => $request->email,
+				'to_name' => $request->name,
+				'from' => env('MAIL_FROM_ADDRESS'),
+				'from_name' => env('MAIL_FROM_NAME'),
+				'subject' => sprintf('%s 様 お問い合わせを受付いたしました。', $request->name),
+				'company' => $request->company,
+				'email' => $request->email,
+				'category' => $request->category,
+				'message' => $request->message,
+			], 'to')); // 送信用のviewを使用するため、第2引数に'to'を指定
 
-		// お問い合わせ内容をメール受信
-		Mail::send(new ContactusNotification([
-			'to' => env('MAIL_FROM_ADDRESS'),
-			'to_name' => env('MAIL_FROM_NAME'),
-			'from' => $request->email,
-			'from_name' => $request->name,
-			'subject' => sprintf('%s 様からお問い合わせが届きました。', $request->name),
-			'company' => $request->company,
-			'email' => $request->email,
-			'category' => $request->category,
-			'message' => $request->message,
-		], 'from')); // 受信用のviewを使用するため、第2引数に'from'を指定
+			// お問い合わせ内容をメール受信
+			Mail::send(new ContactusNotification([
+				'to' => env('MAIL_FROM_ADDRESS'),
+				'to_name' => env('MAIL_FROM_NAME'),
+				'from' => $request->email,
+				'from_name' => $request->name,
+				'subject' => sprintf('%s 様からお問い合わせが届きました。', $request->name),
+				'company' => $request->company,
+				'email' => $request->email,
+				'category' => $request->category,
+				'message' => $request->message,
+			], 'from')); // 受信用のviewを使用するため、第2引数に'from'を指定
+
+		} catch (Exception $e) {
+			return redirect()->back();
+		}
 
 		// リロードによるの二重送信防止
 		$request->session()->regenerateToken();

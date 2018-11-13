@@ -7,4 +7,5 @@
 @endif
 お問い合わせの項目：{{ $contact['category'] }}
 お問い合わせの内容：
+
 {{ $contact['message'] }}

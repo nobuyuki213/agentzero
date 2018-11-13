@@ -63,9 +63,6 @@ class ContactusRequest extends FormRequest
             $input['company'] = trim($input['company'], ' 　   ');
         }
 
-        // リクエストの入力を置き換える処理
-        $this->replace($input);
-
         return $input;
     }
 }

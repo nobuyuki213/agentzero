@@ -32,7 +32,7 @@
 						<i class="far fa-user prefix"></i>
 						<input type="text" name="name" value="{{ $name }}"
 								id="materialContactFormName"
-								class="form-control" disabled>
+								class="form-control" readonly>
 						<label for="materialContactFormName">
 							お名前(ご担当者様)
 						</label>
@@ -43,7 +43,7 @@
 						<i class="far fa-envelope prefix"></i>
 						<input type="email" name="email" value="{{ $email }}"
 								id="materialContactFormEmail"
-								class="form-control" disabled>
+								class="form-control" readonly>
 						<label for="materialContactFormEmail">
 							メールアドレス
 						</label>
@@ -54,7 +54,7 @@
 						<i class="far fa-building prefix"></i>
 						<input type="text" name="company" value="{{ $company }}"
 								id="materialContactFormCompany"
-								class="form-control" disabled>
+								class="form-control" readonly>
 						<label for="materialContactFormCompany">
 							会社名 団体名
 						</label>
@@ -63,11 +63,11 @@
 					{{-- Category --}}
 					<div class="form-group">
 					{!! Html::decode(Form::label('category', 'お問い合わせ項目',
-						['disabled', 'class' => 'form-control-label float-left'])) !!}
+						['class' => 'form-control-label float-left'])) !!}
 
 					{!! Form::select('category',
 						[$category => $category], $category,
-						['disabled', 'class' => 'browser-default custom-select']) !!}
+						['class' => 'browser-default custom-select']) !!}
 					</div>
 
 					{{-- Message --}}
@@ -80,10 +80,12 @@
 					</div>
 
 					{{-- back button --}}
-					{!! Form::button('戻って修正する', [
+					{{-- name属性、value属性の値を付与しコントローラで「戻る」と「送信」の分岐をさせる --}}
+					{!! Html::decode(Form::button('<i class="fas fa-angle-double-left fa-lg"></i> 戻って修正する', [
 						'name' => 'action',
+						'value' => 'back',
 						'class' => 'btn btn-danger rounded-0 z-depth-0 mx-0 waves-effect',
-						'type' => 'submit']) !!}
+						'type' => 'submit'])) !!}
 
 					{{-- Send button --}}
 					<button class="btn btn-outline-info btn-rounded btn-block btn-lg z-depth-0 my-4 waves-effect" type="submit">

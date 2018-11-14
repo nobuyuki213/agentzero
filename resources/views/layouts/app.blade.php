@@ -21,6 +21,8 @@
 
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400|Raleway:100,600|Noto+Sans+JP" rel="stylesheet" type="text/css">
+    <!-- Add Font -->
+    @yield('font')
 </head>
 
 <body>

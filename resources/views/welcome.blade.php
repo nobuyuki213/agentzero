@@ -240,17 +240,17 @@
           var $win = $(window),
               $main = $('.contents'),
               $nav = $('.nav-menu'),
-              navHeight = $nav.outerHeight(),
-              navPos = $nav.offset().top,
+              $navHeight = $nav.outerHeight(),
+              $navPos = $nav.offset().top,
               fixedClass = 'is-fixed';
               w = $(window).width();
               x = 568;
 
           $win.on('load scroll', function() {
             var value = $(this).scrollTop();
-            if ( value > navPos && w <= x) {
+            if ( value > $navPos && w <= x) {
               $nav.addClass(fixedClass);
-              $main.css('margin-top', navHeight + 25);
+              $main.css('margin-top', $navHeight + 25);
             } else {
               $nav.removeClass(fixedClass);
               $main.css('margin-top', '0');

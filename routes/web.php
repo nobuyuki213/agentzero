@@ -14,6 +14,11 @@
 Route::get('/', function () {
     return view('welcome');
 })->name('top');
+// 会社概要ページ
+Route::get('company', function() {
+	return view('company.company');
+})->name('company');
+
 
 // お問い合わせフォーム
 Route::get('contact', 'ContactusController@index')->name('contact');
@@ -35,3 +40,4 @@ Route::get('contact/mailable/perview', function(){
 		'message' => '商品の中身が違いました',
 	], 'to'); // 受信用を確認する場合は、[to]を[from]に変更し、上記URLにアクセス
 });
+

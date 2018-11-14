@@ -19,7 +19,7 @@
 						</p>
 					</div>
 					<div class="text-center warning-color p-5 mb-5">
-						<div class="wow fadeIn" data-wow-delay="0.4s">
+						<div class="wow bounceIn" data-wow-delay="0.4s">
 							<i class="far fa-surprise fa-10x"></i>
 						</div>
 					</div>

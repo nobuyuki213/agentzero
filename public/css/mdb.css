@@ -1735,6 +1735,10 @@ a.text-light:hover, a.text-light:focus {
 .font-small {
   font-size: 0.9rem; }
 
+@media (max-width: 576px) {
+  .font-small {
+    font-size: 0.6rem; } }
+
 .view {
   position: relative;
   overflow: hidden;

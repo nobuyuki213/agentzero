@@ -115,7 +115,7 @@
 
 					{{-- Send button --}}
 					<button class="btn btn-outline-info btn-rounded btn-block btn-lg z-depth-0 my-4 waves-effect" type="submit">
-						入力内容の確認画面へ
+						入力内容の確認画面へ <i class="far fa-check-circle fa-lg"></i>
 					</button>
 
 				{!! Form::close() !!}

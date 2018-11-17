@@ -12,222 +12,216 @@
         C O N T E N T S
     </div>
 
-    <!-- Card deck -->
+    {{-- Card deck --}}
     <div class="card-deck">
 
-        <!-- Card -->
-        <div class="card rounded-0 border border-dark mb-5">
+        {{-- イベント企画制作 --}}
+        <div class="card rounded-0 z-depth-0 black mb-5">
 
-            <!--Card image-->
+            {{-- Card image --}}
             <div class="view overlay">
                 <img class="card-img-top rounded-0" src="{{ asset('storage/eventseisaku.jpg') }}" alt="Card image cap">
-                <a href="#!">
+                <a href="">
                     <div class="mask rgba-white-slight"></div>
                 </a>
             </div>
 
-            <!--Card header-->
+            {{-- Card header --}}
             <div class="card-header text-white text-center black p-1">
-                <!--Title-->
-                <p class="card-title contents-spacing mb-0">
+                {{-- Title --}}
+                <p class="card-title contents-catch-spacing mb-0">
                     イベント企画制作
                 </p>
             </div>
 
-            <!--Card content-->
-            <div class="card-body">
+            {{-- Card content --}}
+            <div class="card-body white">
 
-                <!--Text-->
-                <p class="mb-0 text-justify small" style="letter-spacing:0.15em;">
+                {{-- Text --}}
+                <p class="mb-0 text-justify content-letter">
                     イベントの企画・アイデア出しから制作当日の運営、スタッフ派遣までイベントをトータルで総合的にコーディネートします。
                 </p>
-                <!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
                 {{-- <button type="button" class="btn btn-light-blue btn-md">Read more</button> --}}
 
             </div>
 
         </div>
-        <!-- Card -->
+        {{-- Card --}}
 
-        <!-- Card -->
-        <div class="card rounded-0 border border-dark mb-5 mx-0 mx-sm-2">
+        {{-- キャスティング --}}
+        <div class="card rounded-0 z-depth-0 black mx-0 mx-sm-2 mb-5">
 
-            <!--Card image-->
+            {{-- Card image --}}
             <div class="view overlay">
                 <img class="card-img-top rounded-0" src="{{ asset('storage/casting.jpg') }}" alt="Card image cap">
-                <a href="#!">
+                <a href="">
                     <div class="mask rgba-white-slight"></div>
                 </a>
             </div>
 
-            <!--Card header-->
+            {{-- Card header --}}
             <div class="card-header text-white text-center black p-1">
-                <!--Title-->
-                <p class="card-title contents-spacing mb-0">
+                {{-- Title --}}
+                <p class="card-title contents-catch-spacing mb-0">
                     キャスティング
                 </p>
             </div>
 
-            <!--Card content-->
-            <div class="card-body">
+            {{-- Card content --}}
+            <div class="card-body white">
 
-                <!--Text-->
-                <p class="mb-0 text-justify small" style="letter-spacing:0.15em;">
+                {{-- Text --}}
+                <p class="mb-0 text-justify content-letter">
                     タレント・アーティスト・芸人などジャンルを問わず対応します。ご予算に合わせて柔軟にご提案しますので、お気軽にお声掛けください。
                 </p>
-                <!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
                 {{-- <button type="button" class="btn btn-light-blue btn-md">Read more</button> --}}
 
             </div>
 
         </div>
-        <!-- Card -->
+        {{-- Card --}}
 
-        <!-- Card -->
-        <div class="card rounded-0 border border-dark mb-5">
+        {{-- 会場設営・空間装飾 --}}
+        <div class="card rounded-0 z-depth-0 black mb-5">
 
-            <!--Card image-->
+            {{-- Card image --}}
             <div class="view overlay">
                 <img class="card-img-top rounded-0" src="{{ asset('storage/kaijousetsuei.jpg') }}" alt="Card image cap">
-                <a href="#!">
+                <a href="">
                     <div class="mask rgba-white-slight"></div>
                 </a>
             </div>
 
-            <!--Card header-->
+            {{-- Card header --}}
             <div class="card-header text-white text-center black p-1">
-                <!--Title-->
-                <p class="card-title contents-spacing mb-0">
+                {{-- Title --}}
+                <p class="card-title contents-catch-spacing mb-0">
                     会場設営・空間装飾
                 </p>
             </div>
 
-            <!--Card content-->
-            <div class="card-body">
+            {{-- Card content --}}
+            <div class="card-body white">
 
-                <!--Text-->
-                <p class="mb-0 text-justify small" style="letter-spacing:0.15em;">
+                {{-- Text --}}
+                <p class="mb-0 text-justify content-letter">
                     ここに説明が入ります。ここに説明が入ります。
                 </p>
-                <!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
                 {{-- <button type="button" class="btn btn-light-blue btn-md">Read more</button> --}}
 
             </div>
 
         </div>
-        <!-- Card -->
+        {{-- Card --}}
 
     </div>
-    <!-- Card deck -->
+    {{-- Card deck --}}
 
 
-    <!-- Card deck -->
+    {{-- Card deck --}}
     <div class="card-deck">
 
-        <!-- Card -->
-        <div class="card rounded-0 border border-dark mb-5">
+        {{-- Glamorous Outdoors --}}
+        <div class="card rounded-0 z-depth-0 black mb-5">
 
-            <!--Card image-->
+            {{-- Card image --}}
             <div class="view overlay">
                 <img class="card-img-top rounded-0" src="{{ asset('storage/glamorous.png') }}" alt="Card image cap">
-                <a href="#!">
+                <a href="http://glamorous-outdoors.strikingly.com/">
                     <div class="mask rgba-white-slight"></div>
                 </a>
             </div>
 
-            <!--Card header-->
+            {{-- Card header --}}
             <div class="card-header text-white text-center black p-1">
-                <!--Title-->
-                <p class="card-title contents-spacing mb-0">
+                {{-- Title --}}
+                <p class="card-title contents-catch-spacing mb-0">
                     Glamorous Outdoors
                 </p>
             </div>
 
-            <!--Card content-->
-            <div class="card-body">
+            {{-- Card content --}}
+            <div class="card-body white">
 
-                <!--Text-->
-                <p class="mb-0 text-justify small" style="letter-spacing:0.15em;">
+                {{-- Text --}}
+                <p class="mb-0 text-justify content-letter">
                     アウトドアで魅力的な空間を創造します。什器のレンタルから空間のプロデュース、本格BQQなどのコンテンツも提供します。
                 </p>
-                <!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
                 {{-- <button type="button" class="btn btn-light-blue btn-md">Read more</button> --}}
 
             </div>
 
         </div>
-        <!-- Card -->
+        {{-- Card --}}
 
-        <!-- Card -->
-        <div class="card rounded-0 border border-dark mb-5 mx-0 mx-sm-2">
+        {{-- 茶道ユニット 茶香 --}}
+        <div class="card rounded-0 z-depth-0 black mx-0 mx-sm-2 mb-5">
 
-            <!--Card image-->
+            {{-- Card image --}}
             <div class="view overlay">
                 <img class="card-img-top rounded-0" src="{{ asset('storage/teafume.png') }}" alt="Card image cap">
-                <a href="#!">
+                <a href="http://teafume.strikingly.com/">
                     <div class="mask rgba-white-slight"></div>
                 </a>
             </div>
 
-            <!--Card header-->
+            {{-- Card header --}}
             <div class="card-header text-white text-center black p-1">
-                <!--Title-->
-                <p class="card-title contents-spacing mb-0">
+                {{-- Title --}}
+                <p class="card-title contents-catch-spacing mb-0">
                     茶道ユニット 茶香
                 </p>
             </div>
 
-            <!--Card content-->
-            <div class="card-body">
+            {{-- Card content --}}
+            <div class="card-body white">
 
-                <!--Text-->
-                <p class="mb-0 text-justify small" style="letter-spacing:0.15em;">
+                {{-- Text --}}
+                <p class="mb-0 text-justify content-letter">
                     新しい茶の世界を切り拓く2人組茶道ユニット。移動式茶室と巨大なトランクをトレードマークに今日も日本全国を巡ります。
                 </p>
-                <!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
                 {{-- <button type="button" class="btn btn-light-blue btn-md">Read more</button> --}}
 
             </div>
 
         </div>
-        <!-- Card -->
+        {{-- Card --}}
 
-        <!-- Card -->
-        <div class="card rounded-0 border border-dark mb-5">
+        {{-- Hooper's Park --}}
+        <div class="card rounded-0 z-depth-0 black mb-5">
 
-            <!--Card image-->
+            {{-- Card image --}}
             <div class="view overlay">
                 <img class="card-img-top rounded-0" src="{{ asset('storage/3x3イメージ.jpg') }}" alt="Card image cap">
-                <a href="#!">
+                <a href="">
                     <div class="mask rgba-white-slight"></div>
                 </a>
             </div>
 
-            <!--Card header-->
+            {{-- Card header --}}
             <div class="card-header text-white text-center black p-1">
-                <!--Title-->
-                <p class="card-title contents-spacing mb-0">
+                {{-- Title --}}
+                <p class="card-title contents-catch-spacing mb-0">
                     Hooper's Park
                 </p>
             </div>
 
-            <!--Card content-->
-            <div class="card-body">
+            {{-- Card content --}}
+            <div class="card-body white">
 
-                <!--Text-->
-                <p class="mb-0 text-justify small" style="letter-spacing:0.15em;">
+                {{-- Text --}}
+                <p class="mb-0 text-justify content-letter">
                     「広島の新しいバスケ文化を想像する」をテーマに、ストリート要素を盛り込んだ非常にエンタメ性が高いイベントです。
                 </p>
-                <!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
                 {{-- <button type="button" class="btn btn-light-blue btn-md">Read more</button> --}}
 
             </div>
 
         </div>
-        <!-- Card -->
+        {{-- Card --}}
 
     </div>
-    <!-- Card deck -->
+    {{-- Card deck --}}
 
 </section>
 

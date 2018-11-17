@@ -15,7 +15,7 @@
 		{{-- Material form contact --}}
 		<div class="card rounded-0">
 
-			<h3 class="card-header rounded-0 info-color white-text text-center py-5">
+			<h3 class="card-header rounded-0 black white-text text-center py-5">
 				<i class="fas fa-envelope fa-2x"></i>
 				<strong class="d-block font-weight-bold mt-2">お問い合わせ</strong>
 			</h3>
@@ -114,7 +114,7 @@
 					</div> --}}
 
 					{{-- Send button --}}
-					<button class="btn btn-outline-info btn-rounded btn-block btn-lg z-depth-0 my-4 waves-effect" type="submit">
+					<button class="btn btn-outline-black btn-rounded btn-block btn-lg z-depth-0 my-4 waves-effect" type="submit">
 						入力内容の確認画面へ <i class="far fa-check-circle fa-lg"></i>
 					</button>
 

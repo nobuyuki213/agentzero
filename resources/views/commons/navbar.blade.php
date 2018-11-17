@@ -3,7 +3,7 @@
     <div class="container">
 
         <a class="navbar-brand" href="{{ route('top') }}">
-            <img src="{{ asset('storage/agentzerologo1.png') }}" height="30" alt="A-ZERO logo">
+            <img src="{{ asset('storage/agentzerologo1.png') }}" alt="A-ZERO logo">
         </a>
 
         {{-- <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"

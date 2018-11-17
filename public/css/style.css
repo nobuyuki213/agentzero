@@ -1,6 +1,27 @@
 /* 追加css*/
-.contents-spacing {
+.navbar-brand img {
+	max-height: 30px;
+}
+
+@media (min-width: 576px) {
+	.navbar-brand img {
+		max-height: 40px; } }
+
+.contents-catch-spacing {
 	letter-spacing: 0.1em;
+}
+
+.content-letter {
+	letter-spacing:0.4em;
+	line-height:1.7em;
+	font-size: 0.7rem;
+	transform: scale(0.9, 1);
+	transform-origin: top left;
+	width: 110%;
+}
+
+.card-deck .card {
+  padding:1px 0.7px 1px;
 }
 
 .is-fixed {
@@ -21,4 +42,5 @@
 .heading-log {
 	font-family: "Comfortaa";
 }
+
 

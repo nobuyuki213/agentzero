@@ -39,7 +39,7 @@
 			</li>
 			<li class="list-group-item p-0">
 				<div class="row mx-0">
-					<div class="col-md-3 pt-3 pb-1 py-md-4 px-4">資本金</div>
+					<div class="col-md-3 pt-3 pb-1 py-md-4 px-4">代表者</div>
 					<div class="col-md-9 pb-3 py-md-4 px-4 text-muted">合同会社 エージェントゼロ</div>
 				</div>
 			</li>

@@ -15,7 +15,7 @@
 		{{-- Material form contact --}}
 		<div class="card rounded-0">
 
-			<h3 class="card-header rounded-0 info-color white-text text-center py-5">
+			<h3 class="card-header rounded-0 black white-text text-center py-5">
 				<i class="far fa-paper-plane fa-2x"></i>
 				<strong class="d-block font-weight-bold mt-2">お問い合わせ受付完了</strong>
 			</h3>
@@ -40,7 +40,7 @@
 						</div>
 
 						<div class="wow fadeInUp" data-wow-delay="0.4s">
-							<a href="{{ route('top') }}" class="btn btn-outline-success rounded waves-effect"><i class="fa fa-home left"></i>Topに戻る</a>
+							<a href="{{ route('top') }}" class="btn btn-outline-black rounded waves-effect"><i class="fa fa-home left"></i>Topに戻る</a>
 						</div>
 
 					</div>

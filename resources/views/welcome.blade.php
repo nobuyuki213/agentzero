@@ -20,7 +20,7 @@
 
             {{-- Card image --}}
             <div class="view overlay">
-                <img class="card-img-top rounded-0" src="{{ asset('storage/eventseisaku.jpg') }}" alt="Card image cap">
+                <img class="card-img-top rounded-0 content-img" src="{{ asset('storage/eventseisaku.jpg') }}" alt="Card image cap">
                 <a href="">
                     <div class="mask rgba-white-slight"></div>
                 </a>
@@ -53,7 +53,7 @@
 
             {{-- Card image --}}
             <div class="view overlay">
-                <img class="card-img-top rounded-0" src="{{ asset('storage/casting.jpg') }}" alt="Card image cap">
+                <img class="card-img-top rounded-0 content-img" src="{{ asset('storage/casting.jpg') }}" alt="Card image cap">
                 <a href="">
                     <div class="mask rgba-white-slight"></div>
                 </a>
@@ -86,7 +86,7 @@
 
             {{-- Card image --}}
             <div class="view overlay">
-                <img class="card-img-top rounded-0" src="{{ asset('storage/kaijousetsuei.jpg') }}" alt="Card image cap">
+                <img class="card-img-top rounded-0 content-img" src="{{ asset('storage/kaijousetsuei.jpg') }}" alt="Card image cap">
                 <a href="">
                     <div class="mask rgba-white-slight"></div>
                 </a>
@@ -105,7 +105,7 @@
 
                 {{-- Text --}}
                 <p class="mb-0 text-justify content-letter">
-                    ここに説明が入ります。ここに説明が入ります。
+                    一般的な業者では難しいクライアント様の希望に応えるオリジナリティのある会場・空間を実現します。
                 </p>
                 {{-- <button type="button" class="btn btn-light-blue btn-md">Read more</button> --}}
 
@@ -126,7 +126,7 @@
 
             {{-- Card image --}}
             <div class="view overlay">
-                <img class="card-img-top rounded-0" src="{{ asset('storage/glamorous.png') }}" alt="Card image cap">
+                <img class="card-img-top rounded-0 content-img" src="{{ asset('storage/glamorous.png') }}" alt="Card image cap">
                 <a href="http://glamorous-outdoors.strikingly.com/">
                     <div class="mask rgba-white-slight"></div>
                 </a>
@@ -159,7 +159,7 @@
 
             {{-- Card image --}}
             <div class="view overlay">
-                <img class="card-img-top rounded-0" src="{{ asset('storage/teafume.png') }}" alt="Card image cap">
+                <img class="card-img-top rounded-0 content-img" src="{{ asset('storage/teafume.png') }}" alt="Card image cap">
                 <a href="http://teafume.strikingly.com/">
                     <div class="mask rgba-white-slight"></div>
                 </a>
@@ -192,7 +192,7 @@
 
             {{-- Card image --}}
             <div class="view overlay">
-                <img class="card-img-top rounded-0" src="{{ asset('storage/3x3イメージ.jpg') }}" alt="Card image cap">
+                <img class="card-img-top rounded-0 content-img" src="{{ asset('storage/3x3イメージ.jpg') }}" alt="Card image cap">
                 <a href="">
                     <div class="mask rgba-white-slight"></div>
                 </a>

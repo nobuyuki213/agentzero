@@ -3,14 +3,24 @@
 	max-height: 30px;
 }
 
+/*会社概要の事業内容文用*/
+.list-unstyled {
+	list-style: disc;
+	padding-left: 17px; }
+
+/*モバイル以上の場合の、ロゴサイズと会社概要の事業内容文用*/
 @media (min-width: 576px) {
 	.navbar-brand img {
-		max-height: 40px; } }
+		max-height: 40px; }
+	.list-unstyled {
+		list-style: none;
+		padding-left: 0; } }
 
+/*トップコンテンツ案内の見出し用*/
 .contents-catch-spacing {
 	letter-spacing: 0.1em;
 }
-
+/*トップコンテンツ案内の詳細文用*/
 .content-letter {
 	letter-spacing:0.4em;
 	line-height:1.7em;
@@ -20,10 +30,17 @@
 	width: 110%;
 }
 
+/*トップコンテンツ画像用*/
+.content-img {
+	height:175px;
+}
+
+/*トップコンテンツ画像用*/
 .card-deck .card {
   padding:1px 0.7px 1px;
 }
 
+/*トップナビメニュー用*/
 .is-fixed {
 	position: fixed;
 	padding: 0 0 0 0;
@@ -39,8 +56,8 @@
 	font-size: 0.9rem;
 }
 
+/*会社概要ページの見出し用*/
 .heading-log {
 	font-family: "Comfortaa";
 }
-
 

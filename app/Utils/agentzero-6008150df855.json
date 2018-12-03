@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "agentzero-223013",
+  "private_key_id": "6008150df85544748d1f1c5ae01ad70ce87cf63b",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQC4fnFCrMQ1Bmtl\nxgQHNUUdW1UUnRS4aWDL4zWNLC4aZEiTFhINUGlBD+Y0h37lD+9X0YB1Us7mOCZf\n16cWx0DXPq05rcgOMD2FratVNvdh3+dt4Of641Zs9+il6YSICRICOGvjQo6u7X4F\ncRQivcZKY1La0ygZanl+TTQkHtZMXoo/cP/RgOqQZIF7V99X9TZwf7C/u7nbuv7Y\nhYxHBsEZrozWnZMyrNV+/bWeX1LblnCxQ1HwiGpxZ1GUhfQqsL4H0X7XiySzkdcr\nD1d8gfP3+rV/ENwvCx4IYmDlNwnb9Jmz00keXlErvDdjiBpZR0qcNbgJj8AqwWk7\n1y7k68mjAgMBAAECggEAIzKEOxsox5D09lKjvBhOmj4taiRZqqD4BY3QTqGKHiDZ\ns633PbEEk5QL8COVcu/qUo+2eSuWK1e1An3q866J0Ua015cu3n4XjqRGVpiI85Q6\n27yXpUav21Qkf1qgnS9VzzSiaJXvELJgY3tiQwp/hPuT+Alm0gp9KTpjYyy655Ci\nh39Wq6otdfB6UnhY5U0q7vyRos1C2v+DuSbS7l+pVjwGyQMP2JDiPUbOabMP59zl\nA93UqQVX1hY5TbGwCSQSar0gZwEZxZZk8Rjgszp+8Woy94KIq8ev7t1Fqo1Glv+T\nXGYh3dMAmr9oXpvac/6HD26NwiiuhmqhEQ9owzYB6QKBgQDstw3srB6l/zmUgVtr\nNBscdG0dAz5x+IDgBLEC5SR3n0EWmDIfz/6ZM53gD7BQWyMtF8R7/mfHT01Jwja9\nR22Y6p04gHG1eMKf9XK8eE57WOO6tzmrv/yRcJX/gVzPpo1xo9t/EgmhfGunAwSb\nX/9heAm8oxzW8LDmWBEdp6APpQKBgQDHhkKjiUjwBeW8KjtysYnLHIkn8qXpD+qk\nT7a5JY1cv1bbY9SyETx63O5JJjsBiny0oIBHVwIXYcco7nE/4Tuo/3vVEcKqaLtN\nlCDg9QZm6Y4DkgWVAEJBMUFDB3MXanNU8byR4sofYaxE/MZjB0QKMFzFMCPSf1la\nDF21nwcxpwKBgCV/wjbx9VD6o5aA/4h2Eq1pTDfCYcwQP+o9FAWPYz2H/vmjVp1v\nh7ehU6tBEP9J0MK99yRlYu9SAr5ig+VsQVJuKEXhIyJKZRqN+YUd0eD8becQS5SH\nr20i1sBJL/i9O7765DS3GMt6OFuWwM4UYRKBv5kghdsO+hcjcGKwQUz5AoGABVu1\nrm6hZtDBuqvnrMzXxnydslTx37BtvLvnTFGV2kfJLVsg+yc7WJFWVOCR9RijALbO\nuxu7EqWtk4vTvsNttrwltzMi5zCo1wyDVYc/BMSA69egDsBTBy0rc4FfteFF96IG\nTmSoyO72kWO4cDBhw2RJGYKRc7W30JNEcPw0VUECgYALgWky71tIo9yzSkH3HL6P\nE5UTYbseJfDUCvYfavqAi1spbWmRAs07zpxKkIkf3h0E38GhU+y6gSlC27g30gbb\nNKekIXc5ADM0N+mYis1a9Uj7+2sWpMv5d/FKE0iseM0JFOtiXmsF4tMnc5EZneRZ\n9l26t62QOU29dzM85UFGTA==\n-----END PRIVATE KEY-----\n",
+  "client_email": "search-console-api-admin@agentzero-223013.iam.gserviceaccount.com",
+  "client_id": "103093430272988096406",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/search-console-api-admin%40agentzero-223013.iam.gserviceaccount.com"
+}

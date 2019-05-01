@@ -39,7 +39,7 @@
 
         </main>
 
-        <footer id="footer">
+        <footer id="footer" class="page-footer font-small black">
 
             @include('commons.footer')
 

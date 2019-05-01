@@ -7,21 +7,21 @@
 
             {{-- 事業内容 --}}
             <div class="card card-img rounded-0 z-depth-0 border mb-0"
-                style="background-image: url({{ asset('storage/businesscontens.png') }});
+                style="background-color: rgba(0, 0, 0, 1);
                        background-repeat: no-repeat;
                        background-size: 20vmin;
                        background-position: center;">
 
                 {{-- Card overlay --}}
-                <div class="view overlay rgba-white-strong h-100">
+                <div class="view overlay {{-- rgba-white-strong  --}}">
                     <a href="{{ route('company') }}">
                         <div class="mask rgba-black-slight"></div>
                     </a>
 
                     {{-- Card content --}}
-                    <div class="text-center align-items-center h-100 px-2" style="padding:10vmin;">
+                    <div class="text-center align-items-center" style="padding:4vmin 0;">
                         <div>
-                            <h6 class="card-title font-weight-bold mb-0" style="font-size:calc(0.4rem + 2.0vmin);">
+                            <h6 class="card-title text-white font-weight-bold mb-0" style="font-size:calc(0.4rem + 2.0vmin);">
                                 事業内容
                             </h6>
                         </div>
@@ -35,21 +35,21 @@
 
             {{-- 会社概要 --}}
             <div class="card card-img rounded-0 z-depth-0 border mb-0"
-                style="background-image: url({{ asset('storage/company.png') }});
+                style="background-color: rgba(0, 0, 0, 1);
                        background-repeat: no-repeat;
                        background-size: 20vmin;
                        background-position: center;">
 
                 {{-- Card overlay --}}
-                <div class="view overlay rgba-white-strong h-100">
+                <div class="view overlay {{-- rgba-white-strong  --}}">
                     <a href="{{ route('company') }}">
                         <div class="mask rgba-black-slight"></div>
                     </a>
 
                     {{-- Card content --}}
-                    <div class="text-center align-items-center h-100 px-2" style="padding:10vmin;">
+                    <div class="text-center align-items-center" style="padding:4vmin 0;">
                         <div>
-                            <h6 class="card-title font-weight-bold mb-0" style="font-size:calc(0.4rem + 2.0vmin);">
+                            <h6 class="card-title text-white font-weight-bold mb-0" style="font-size:calc(0.4rem + 2.0vmin);">
                                 会社概要
                             </h6>
                         </div>
@@ -63,21 +63,21 @@
 
             {{-- お問い合わせ --}}
             <div class="card card-img rounded-0 z-depth-0 border mb-0"
-                style="background-image: url({{ asset('storage/contact.png') }});
+                style="background-color: rgba(0, 0, 0, 1);
                        background-repeat: no-repeat;
                        background-size: 20vmin;
                        background-position: center;">
 
                 {{-- Card overlay --}}
-                <div class="view overlay rgba-white-strong h-100">
+                <div class="view overlay {{-- rgba-white-strong  --}}">
                     <a href="{{ route('contact') }}">
                         <div class="mask rgba-black-slight"></div>
                     </a>
 
                     {{-- Card content --}}
-                    <div class="text-center align-items-center h-100 px-2" style="padding:10vmin;">
+                    <div class="text-center align-items-center" style="padding:4vmin 0;">
                         <div>
-                            <h6 class="card-title font-weight-bold mb-0" style="font-size:calc(0.4rem + 2.0vmin);">
+                            <h6 class="card-title text-white font-weight-bold mb-0" style="font-size:calc(0.4rem + 2.0vmin);">
                                 お問い合わせ
                             </h6>
                         </div>

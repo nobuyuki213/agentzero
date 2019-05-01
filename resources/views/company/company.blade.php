@@ -34,7 +34,7 @@
 			<li class="list-group-item p-0">
 				<div class="row mx-0">
 					<div class="col-md-3 pt-3 pb-1 py-md-4 px-4">会社名</div>
-					<div class="col-md-9 pb-3 py-md-4 px-4 text-muted">合同会社エージェントゼロ</div>
+					<div class="col-md-9 pb-3 py-md-4 px-4 text-muted">株式会社エージェントゼロ</div>
 				</div>
 			</li>
 			<li class="list-group-item p-0">
@@ -71,7 +71,7 @@
 						主要取引先
 						<span class="small d-md-block">（敬称略、五十音順）</span>
 					</div>
-					<div class="col-md-9 pb-3 py-md-4 px-4 text-muted">合同会社 エージェントゼロ</div>
+					<div class="col-md-9 pb-3 py-md-4 px-4 text-muted">株式会社 エージェントゼロ</div>
 				</div>
 			</li> --}}
 		</ul>

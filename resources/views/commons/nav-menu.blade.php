@@ -1,4 +1,4 @@
-<div class="container mt-4 px-0 px-sm-3">
+<nav class="container my-4 px-0 px-md-3">
 
     <div class="nav-menu">
 
@@ -94,4 +94,4 @@
 
     </div>
 
-</div>
+</nav>

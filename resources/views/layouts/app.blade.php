@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
 
-    <title>@yield('title') | 【A-ZERO】</title>
+    <title>{{ $title ?? 'AgentZERO [エージェントゼロ]' }}</title>
 
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
@@ -20,7 +20,7 @@
     @yield('stylesheet')
 
     <!-- Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400|Raleway:100,600|Noto+Sans+JP" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700|Raleway:100,600|Noto+Sans+JP" rel="stylesheet" type="text/css">
     <!-- Add Font -->
     @yield('font')
 </head>
@@ -35,9 +35,15 @@
 
         </header><!-- /header -->
 
+        @yield('nav')
+
         <main id="main">
 
+            @yield('slider-images')
+
             @yield('content')
+
+            @yield('news')
 
         </main>
 
@@ -58,6 +64,8 @@
     <script type="text/javascript" src="{{ asset('js/bootstrap.min.js') }}"></script>
     <!-- MDB core JavaScript -->
     <script type="text/javascript" src="{{ asset('js/mdb.min.js') }}"></script>
+    {{-- jquery.shave --}}
+    <script type="text/javascript" src="{{ asset('js/jquery.shave.js') }}"></script>
     <!-- Add script.-->
     @yield('script')
 </body>

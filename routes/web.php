@@ -11,9 +11,8 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-})->name('top');
+// トップページ
+Route::get('/', 'WelcomeController@welcome')->name('top');
 // 会社概要ページ
 Route::get('company', function() {
 	return view('company.company');

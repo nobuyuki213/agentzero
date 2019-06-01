@@ -1,6 +1,4 @@
-@extends('layouts.app')
-
-@section('title', 'お問い合わせ内容の確認')
+@extends('layouts.app', ['title' => 'お問い合わせ内容の確認 | AgentZERO [エージェントゼロ]'])
 
 @section('stylesheet')
 

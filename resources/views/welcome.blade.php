@@ -1,14 +1,28 @@
-@extends('layouts.app')
+@extends('layouts.app', ['title' => 'トップページ | AgentZERO [エージェントゼロ]'])
 
-@section('title', 'エージェントゼロ')
+@section('nav')
+
+    @include('commons.nav-menu')
+
+@endsection
+
+@section('slider-images')
+
+    @include('commons.welcome-slider')
+
+@endsection
+
+@section('news')
+
+    @include('commons.news')
+
+@endsection
 
 @section('content')
 
-@include('commons.nav-menu')
+<section class="contents container">
 
-<section class="contents container" style="margin-top: 0px;">
-
-    <div class="title text-white text-center black py-1 my-4">
+    <div class="title text-white text-center black py-1 mb-4">
         C O N T E N T S
     </div>
 
@@ -49,7 +63,7 @@
         {{-- Card --}}
 
         {{-- キャスティング --}}
-        <div class="card rounded-0 z-depth-0 black mx-0 mx-sm-2 mb-5">
+        <div class="card rounded-0 z-depth-0 black mx-0 mx-md-2 mb-5">
 
             {{-- Card image --}}
             <div class="view overlay">
@@ -155,7 +169,7 @@
         {{-- Card --}}
 
         {{-- 茶道ユニット 茶香 --}}
-        <div class="card rounded-0 z-depth-0 black mx-0 mx-sm-2 mb-5">
+        <div class="card rounded-0 z-depth-0 black mx-0 mx-md-2 mb-5">
 
             {{-- Card image --}}
             <div class="view overlay">
@@ -228,11 +242,11 @@
 @endsection
 
 @section('script')
-<script>
+<script type="text/javascript">
       // 568px以下のときの処理
       $(function() {
           var $win = $(window),
-              $main = $('.contents'),
+              $main = $('#main'),
               $nav = $('.nav-menu'),
               $navHeight = $nav.outerHeight(),
               $navPos = $nav.offset().top,
@@ -244,13 +258,19 @@
             var value = $(this).scrollTop();
             if ( value > $navPos && w <= x) {
               $nav.addClass(fixedClass);
-              $main.css('margin-top', $navHeight + 25);
+              $main.css('padding-top', $navHeight);
             } else {
               $nav.removeClass(fixedClass);
-              $main.css('margin-top', '0');
+              $main.css('padding-top', '0');
             }
           });
         });
 
+</script>
+<script type="text/javascript">
+    // p.post-message セレクタ内に記述した文が高さ60px以上になった場合、「…」を表示する
+    $(function() {
+		$('p.post-message').shave(60, { classname:"over-text-hidden", character:"…"}, );
+    });
 </script>
 @endsection

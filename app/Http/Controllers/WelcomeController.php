@@ -19,15 +19,15 @@ class WelcomeController extends Controller
 			// slider1
 			["img_file" => "eventseisaku.jpg", "contents_name" => "イベント企画制作", "alt" => "イベント企画制作",],
 			// slider2
-			["img_file" => "casting.jpg", "contents_name" => "キャスティング", "alt" => "キャスティング",],
-			// slider3
 			["img_file" => "kaijousetsuei.jpg", "contents_name" => "会場設営・空間装飾", "alt" => "会場設営・空間装飾",],
+			// slider3
+			["img_file" => "creative.png", "contents_name" => "クリエイティブ制作", "alt" => "クリエイティブ制作",],
 			// slider4
-			["img_file" => "glamorous.png", "contents_name" => "", "alt" => "Glamorous Outdoors",],
+			["img_file" => "casting.jpg", "contents_name" => "キャスティング", "alt" => "キャスティング",],
 			// slider5
-			["img_file" => "teafume.png", "contents_name" => "", "alt" => "茶道ユニット 茶香",],
+			["img_file" => "music_management.png", "contents_name" => "楽曲制作・マネジメント", "alt" => "楽曲制作・マネジメント",],
 			// slider6
-			["img_file" => "3x3イメージ.jpg", "contents_name" => "Hooper's Park", "alt" => "Hooper's Park",]
+			["img_file" => "university_support.png", "contents_name" => "大学生サポート", "alt" => "大学生サポート",]
 		]);
 
 		$news_list = collect([

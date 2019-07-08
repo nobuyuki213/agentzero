@@ -5,7 +5,7 @@
 	</div>
 
 	{{-- News一覧 --}}
-	<ul class="list-group list-group-flush animated fadeIn slow">
+	<ul class="list-group list-group-flush wow fadeInUp">
 
 	@foreach ($news_list as $news)
 

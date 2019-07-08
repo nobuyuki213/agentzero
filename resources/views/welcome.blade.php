@@ -30,7 +30,7 @@
     <div class="card-deck">
 
         {{-- イベント企画制作 --}}
-        <div class="card rounded-0 z-depth-0 black mb-5">
+        <div class="card rounded-0 z-depth-0 black mb-5 wow fadeIn">
 
             {{-- Card image --}}
             <div class="view overlay">
@@ -62,41 +62,8 @@
         </div>
         {{-- Card --}}
 
-        {{-- キャスティング --}}
-        <div class="card rounded-0 z-depth-0 black mx-0 mx-md-2 mb-5">
-
-            {{-- Card image --}}
-            <div class="view overlay">
-                <img class="card-img-top rounded-0 content-img" src="{{ asset('storage/casting.jpg') }}" alt="Card image cap">
-                <a href="">
-                    <div class="mask rgba-white-slight"></div>
-                </a>
-            </div>
-
-            {{-- Card header --}}
-            <div class="card-header text-white text-center black p-1">
-                {{-- Title --}}
-                <p class="card-title contents-catch-spacing mb-0">
-                    キャスティング
-                </p>
-            </div>
-
-            {{-- Card content --}}
-            <div class="card-body white">
-
-                {{-- Text --}}
-                <p class="mb-0 text-justify content-letter">
-                    タレント・アーティスト・芸人などジャンルを問わず対応します。ご予算に合わせて柔軟にご提案しますので、お気軽にお声掛けください。
-                </p>
-                {{-- <button type="button" class="btn btn-light-blue btn-md">Read more</button> --}}
-
-            </div>
-
-        </div>
-        {{-- Card --}}
-
         {{-- 会場設営・空間装飾 --}}
-        <div class="card rounded-0 z-depth-0 black mb-5">
+        <div class="card rounded-0 z-depth-0 black mx-0 mx-md-2 mb-5 wow fadeIn">
 
             {{-- Card image --}}
             <div class="view overlay">
@@ -128,85 +95,12 @@
         </div>
         {{-- Card --}}
 
-    </div>
-    {{-- Card deck --}}
-
-
-    {{-- Card deck --}}
-    <div class="card-deck">
-
-        {{-- Glamorous Outdoors --}}
-        <div class="card rounded-0 z-depth-0 black mb-5">
+        {{-- クリエイティブ制作 --}}
+        <div class="card rounded-0 z-depth-0 black mb-5 wow fadeIn">
 
             {{-- Card image --}}
             <div class="view overlay">
-                <img class="card-img-top rounded-0 content-img" src="{{ asset('storage/glamorous.png') }}" alt="Card image cap">
-                <a href="http://glamorous-outdoors.strikingly.com/">
-                    <div class="mask rgba-white-slight"></div>
-                </a>
-            </div>
-
-            {{-- Card header --}}
-            <div class="card-header text-white text-center black p-1">
-                {{-- Title --}}
-                <p class="card-title contents-catch-spacing mb-0">
-                    Glamorous Outdoors
-                </p>
-            </div>
-
-            {{-- Card content --}}
-            <div class="card-body white">
-
-                {{-- Text --}}
-                <p class="mb-0 text-justify content-letter">
-                    アウトドアで魅力的な空間を創造します。什器のレンタルから空間のプロデュース、本格BQQなどのコンテンツも提供します。
-                </p>
-                {{-- <button type="button" class="btn btn-light-blue btn-md">Read more</button> --}}
-
-            </div>
-
-        </div>
-        {{-- Card --}}
-
-        {{-- 茶道ユニット 茶香 --}}
-        <div class="card rounded-0 z-depth-0 black mx-0 mx-md-2 mb-5">
-
-            {{-- Card image --}}
-            <div class="view overlay">
-                <img class="card-img-top rounded-0 content-img" src="{{ asset('storage/teafume.png') }}" alt="Card image cap">
-                <a href="http://teafume.strikingly.com/">
-                    <div class="mask rgba-white-slight"></div>
-                </a>
-            </div>
-
-            {{-- Card header --}}
-            <div class="card-header text-white text-center black p-1">
-                {{-- Title --}}
-                <p class="card-title contents-catch-spacing mb-0">
-                    茶道ユニット 茶香
-                </p>
-            </div>
-
-            {{-- Card content --}}
-            <div class="card-body white">
-
-                {{-- Text --}}
-                <p class="mb-0 text-justify content-letter">
-                    新しい茶の世界を切り拓く2人組茶道ユニット。移動式茶室と巨大なトランクをトレードマークに今日も日本全国を巡ります。
-                </p>
-                {{-- <button type="button" class="btn btn-light-blue btn-md">Read more</button> --}}
-
-            </div>
-
-        </div>
-        {{-- Card --}}
-
-        {{-- Hooper's Park --}}
-        <div class="card rounded-0 z-depth-0 black mb-5">
-
-            {{-- Card image --}}
-            <div class="view overlay">
-                <img class="card-img-top rounded-0 content-img" src="{{ asset('storage/3x3イメージ.jpg') }}" alt="Card image cap">
+                <img class="card-img-top rounded-0 content-img" src="{{ asset('storage/creative.png') }}" alt="Card image cap">
                 <a href="">
                     <div class="mask rgba-white-slight"></div>
                 </a>
@@ -216,7 +110,7 @@
             <div class="card-header text-white text-center black p-1">
                 {{-- Title --}}
                 <p class="card-title contents-catch-spacing mb-0">
-                    Hooper's Park
+                    クリエイティブ制作
                 </p>
             </div>
 
@@ -225,7 +119,113 @@
 
                 {{-- Text --}}
                 <p class="mb-0 text-justify content-letter">
-                    「広島の新しいバスケ文化を想像する」をテーマに、ストリート要素を盛り込んだ非常にエンタメ性が高いイベントです。
+                    写真撮影、動画撮影・編集、WEB制作、紙媒体編集など各種クリエイティブ業務にワンストップでご対応できます。金額を問わず、まずは一度ご相談下さい。
+                </p>
+                {{-- <button type="button" class="btn btn-light-blue btn-md">Read more</button> --}}
+
+            </div>
+
+        </div>
+        {{-- Card --}}
+
+    </div>
+    {{-- Card deck --}}
+
+
+    {{-- Card deck --}}
+    <div class="card-deck">
+
+        {{-- キャスティング --}}
+        <div class="card rounded-0 z-depth-0 black mb-5 wow fadeIn">
+
+            {{-- Card image --}}
+            <div class="view overlay">
+                <img class="card-img-top rounded-0 content-img" src="{{ asset('storage/casting.jpg') }}" alt="Card image cap">
+                <a href="">
+                    <div class="mask rgba-white-slight"></div>
+                </a>
+            </div>
+
+            {{-- Card header --}}
+            <div class="card-header text-white text-center black p-1">
+                {{-- Title --}}
+                <p class="card-title contents-catch-spacing mb-0">
+                    キャスティング
+                </p>
+            </div>
+
+            {{-- Card content --}}
+            <div class="card-body white">
+
+                {{-- Text --}}
+                <p class="mb-0 text-justify content-letter">
+                    タレント・アーティスト・芸人などジャンルを問わず対応します。ご予算に合わせて柔軟にご提案しますので、お気軽にお声掛けください。
+                </p>
+                {{-- <button type="button" class="btn btn-light-blue btn-md">Read more</button> --}}
+
+            </div>
+
+        </div>
+        {{-- Card --}}
+
+        {{-- 楽曲制作・マネジメント --}}
+        <div class="card rounded-0 z-depth-0 black mx-0 mx-md-2 mb-5 wow fadeIn">
+
+            {{-- Card image --}}
+            <div class="view overlay">
+                <img class="card-img-top rounded-0 content-img" src="{{ asset('storage/music_management.png') }}" alt="Card image cap">
+                <a href="">
+                    <div class="mask rgba-white-slight"></div>
+                </a>
+            </div>
+
+            {{-- Card header --}}
+            <div class="card-header text-white text-center black p-1">
+                {{-- Title --}}
+                <p class="card-title contents-catch-spacing mb-0">
+                    楽曲制作・マネジメント
+                </p>
+            </div>
+
+            {{-- Card content --}}
+            <div class="card-body white">
+
+                {{-- Text --}}
+                <p class="mb-0 text-justify content-letter">
+                    オリジナル曲・商業音楽・映像音楽・BGMを中心に音楽制作・楽曲制作が可能です。マネジメントするクリエイターによって幅広いジャンルに対応出来ます。
+                </p>
+                {{-- <button type="button" class="btn btn-light-blue btn-md">Read more</button> --}}
+
+            </div>
+
+        </div>
+        {{-- Card --}}
+
+        {{-- 大学生サポート --}}
+        <div class="card rounded-0 z-depth-0 black mb-5 wow fadeIn">
+
+            {{-- Card image --}}
+            <div class="view overlay">
+                <img class="card-img-top rounded-0 content-img" src="{{ asset('storage/university_support.png') }}" alt="Card image cap">
+                <a href="">
+                    <div class="mask rgba-white-slight"></div>
+                </a>
+            </div>
+
+            {{-- Card header --}}
+            <div class="card-header text-white text-center black p-1">
+                {{-- Title --}}
+                <p class="card-title contents-catch-spacing mb-0">
+                    大学生サポート
+                </p>
+            </div>
+
+            {{-- Card content --}}
+            <div class="card-body white">
+
+                {{-- Text --}}
+                <p class="mb-0 text-justify content-letter">
+                    大学生向けフリーペーパーの発行を中心にサークルや学生団体のサポートを実施しています。 大学生との接点を持ちたいとお考えの際には気軽にご相談下さい。
                 </p>
                 {{-- <button type="button" class="btn btn-light-blue btn-md">Read more</button> --}}
 
@@ -268,9 +268,13 @@
 
 </script>
 <script type="text/javascript">
-    // p.post-message セレクタ内に記述した文が高さ60px以上になった場合、「…」を表示する
+    // news.blade.php の p.post-message セレクタ内に記述した文が高さ60px以上になった場合、「…」を表示する
     $(function() {
 		$('p.post-message').shave(60, { classname:"over-text-hidden", character:"…"}, );
+    });
+    // スクロール時のアニメーション
+    $(function() {
+        new WOW().init();
     });
 </script>
 @endsection
